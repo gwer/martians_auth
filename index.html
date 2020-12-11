@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Через форму к Марсу</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form method="POST" action="./index.html" class="loginBlock">
+      <fieldset>
+        <legend>Авторизация</legend>
+        <div class="formField">
+          <label class="label" for="loginInput">Логин</label>
+          <input
+            class="control"
+            name="login"
+            id="loginInput"
+            placeholder="hello@world.com"
+          />
+        </div>
+        <div class="formField">
+          <label class="label" for="passwordInput">Пароль</label>
+          <input
+            class="control"
+            name="password"
+            id="passwordInput"
+            type="password"
+            placeholder="********"
+          />
+        </div>
+        <button class="control" type="submit">Войти</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
