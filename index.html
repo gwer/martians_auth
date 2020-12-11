@@ -13,20 +13,25 @@
         <div class="formField">
           <label class="label" for="loginInput">Логин</label>
           <input
+            autocomplete="email"
             class="control"
-            name="login"
             id="loginInput"
+            name="login"
             placeholder="hello@world.com"
+            required
+            type="email"
           />
         </div>
         <div class="formField">
           <label class="label" for="passwordInput">Пароль</label>
           <input
+            autocomplete="current-password"
             class="control"
-            name="password"
             id="passwordInput"
-            type="password"
+            name="password"
             placeholder="********"
+            required
+            type="password"
           />
         </div>
         <button class="control" type="submit">Войти</button>
